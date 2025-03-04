@@ -41,11 +41,12 @@ Run the Application
 Open the project in IntelliJ IDEA / Eclipse / NetBeans.
 Ensure Apache Tomcat is installed and configured.
 Deploy and start the server.
-Usage
-🔹 Register/Login as a user.
-🔹 Add new medicines with details.
-🔹 View, update, or delete medicines.
-🔹 Logout after usage.
+
+##Usage
+Register/Login as a user.
+Add new medicines with details.
+View, update, or delete medicines.
+Logout after usage.
 
 Future Improvements
 🚀 Implement AJAX for real-time updates.
