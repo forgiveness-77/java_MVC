@@ -20,7 +20,7 @@ public class AddMedicine extends HttpServlet {
 
         HttpSession session = req.getSession(false); // Do not create a new session
         if (session == null || session.getAttribute("email") == null) {
-            res.sendRedirect("login.jsp");
+            res.sendRedirect("userLogin");
             return;
         }
 
@@ -37,7 +37,7 @@ public class AddMedicine extends HttpServlet {
 
         System.out.println("Medicine Added Successfully!");
 
-        res.sendRedirect("getMed");
+        res.sendRedirect("getMedicine");
 
     }
 }
